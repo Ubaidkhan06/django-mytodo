@@ -1,0 +1,12 @@
+{% extends 'mytodo/base.html' %}
+
+
+{% block content %}
+<div class="card-header">
+    ABOUT PAGE
+</div>
+<div class="card-body">
+    Task : {{ task.title }} <br>
+    Description : {{ task.description }}
+</div>
+{% endblock content %}
